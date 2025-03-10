@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Zoom Manager</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; text-align: center; }
+    input, button { margin: 5px; }
+  </style>
+</head>
+<body>
+  <h2>Zoom Manager</h2>
+  <input type="number" id="zoom-percentage" placeholder="Enter zoom %" min="25" max="500" />
+  <button id="apply-zoom">Apply Zoom</button>
+  <br />
+  <label>
+    <input type="checkbox" id="toggle-zoom" />
+    Apply to all tabs
+  </label>
+  <script src="popup.js"></script>
+</body>
+</html>
